@@ -89,3 +89,41 @@ body {
     margin-left: 50px;
 
 }
+
+/* info section styles */
+
+.info{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* justify-content: space-evenly;*/
+
+}
+
+.info-title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.info-items{
+
+}
+
+.border {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    max-width: 200px;
+}
