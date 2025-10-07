@@ -28,50 +28,59 @@
             <p class="headline">Birds aren't real</p>
             <p class="subtext">Birds are just drones sent by the government to spy on us. Though they may look real, they are not in fact animals. They are robots. </p>
             <button class="button">More info</button>
+            <!-- todo: make the button go to this link: https://www.theguardian.com/us-news/2022/apr/14/the-lunacy-is-getting-more-intense-how-birds-arent-real-took-on-the-conspiracy-theorists -->
         </div>
         <div class="hero-image">
-            <img src="./images/bird-van.jpg" alt="image source: diggitmagazine.com" width="500">
+            <img src="./images/bird-van.jpg" alt="image source: diggitmagazine.com" width="750">
         </div>
     </div>
     <div class="info">
-        <p class="info-title">Some essential bird facts</p>
+        <p class="info-title">Some essential bird facts.</p>
         <div class="info-items">
             <div class="item">
                 <div class="img-border">
-                    <img src="./images/if-it-flies-it-spies.webp" alt="Anatomy of a government drone" width="150">
+                    <img id="info-img" src="./images/if-it-flies-it-spies.webp" alt="Anatomy of a government drone" width="150">
                 </div>
                 <div class="item-text">If it flies it spies</div>
             </div>
             <div class="item">
                 <div class="img-border">
-                    <img src="./images/birds-arent-real-power-line.webp" alt="Drone recharging" width="150">
+                    <img id="info-img" src="./images/birds-arent-real-power-line.webp" alt="Drone recharging" width="150">
                 </div>
                 <div class="item-text">Birds charge on power lines</div>
             </div>
             <div class="item">
                 <div class="img-border">
-                    <img src="./images/bird-on-car.jpg" alt="surveillance drone tracking a car" width="150">
+                    <img id="info-img" src="./images/bird-on-car.jpg" alt="surveillance drone tracking a car" width="150">
                 </div>
                 <div class="item-text">Birds defecate on cars as a tracking method</div>
             </div>
             <div class="item">
                 <div class="img-border">
-                    <img src="./images/jfk-life-magazine.webp" alt="JFK before being assassinated for refusing to exterminate the birds" width="150">
+                    <!-- This image is a different aspect ratio, so we need to restrict the height to match the rest. -->
+                    <img id="info-img" src="./images/jfk-life-magazine.webp" alt="JFK before being assassinated for refusing to exterminate the birds" height="150">
                 </div>
                 <div class="item-text">Birds are responsible for the JFK assassination</div>
             </div>
         </div>
     </div>
     <div class="quote">
-        <p>Inspiring quote goes here</p>
+        <p>"I'm angry, and I'm here to protest! Wake up America! Birds are not real, they're a myth, they're an illusion. Thank you for your time." - Peter McIndoe</p>
     </div>
-    <div class="signup">
-        <p>Wake up sheeple! The time to act is now!</p>
-        <p>Sign up for our newsletter by clicking that button right over there!</p>
-        <button class="Sign up">Sign up</button>
+    <div class="CTA">
+        <div class="call-box"> 
+            <div class="call-text">
+               <p class="call-header">Wake up sheeple! The time to act is now!</p>
+               <p>Sign up for our newsletter by clicking that button right over there!</p>
+            </div>
+            <div>
+                <button class="signup">Sign up</button>
+            </div>
+        </div>
     </div>
-    <footer>
-        Copyright (c) The Odin Project 2025
+    <footer class="footer">
+        <p>Copyright (c) stevec-afk@github 2025</p>
+        <p>Made for The Odin Project</p>
     </footer>
 </body>
 </html>
